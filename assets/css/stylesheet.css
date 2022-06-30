@@ -11,6 +11,7 @@ body {
     font-weight: 300;
     margin:0;
     padding:0;
+    background-color: #76947A;
 }
 
 .navbar {
@@ -18,4 +19,13 @@ body {
     
 }
 
+.hero-section {
+    background-color: #F1EEE7 !important;
+}
 
+
+.custom-button {
+    font-family: Livvic !important;
+    background-color: #76947A;
+    border: #76947A;
+}
