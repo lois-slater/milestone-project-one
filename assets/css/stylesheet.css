@@ -19,8 +19,12 @@ body {
     
 }
 
-.hero-section {
+.cream-bg {
     background-color: #F1EEE7 !important;
+}
+
+.green-bg {
+    background-color: #76947A;
 }
 
 
@@ -33,4 +37,24 @@ body {
 
 .tagline {
     font-size: 50px !important;
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+.livvic {
+    font-family: livvic !important;
+}
+
+ .services {
+    background-color: #F1EEE7 !important;
+    letter-spacing: 1.5px;
+
+}
+
+.sub-titles {
+    text-align: center !important;
+
+
 }
