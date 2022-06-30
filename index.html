@@ -15,7 +15,7 @@
 <body>
   <header>
         <!-- navbar -->
-        <nav class="navbar navbar-dark navbar-expand-md">
+        <nav class="navbar navbar-expand-md navbar-light">
             <!-- navbar logo --> 
             <div class="container-fluid">
                 <a href="#" class="navbar-brand"></a><img src="assets/images/logo.png" alt="Floofy Doof Dog Care Logo" class="img-fluid"></a>
@@ -29,19 +29,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="main-nav">
                     <ul class="navbar-nav d-flex align-items-center">
                             <li class="nav-link">
-                                <a class="nav-link" href="#about">About</a>
+                                <a class="nav-link livvic-text" href="#about">About</a>
                             </li> 
                             <li class="nav-link">
-                                <a class="nav-link" href="#services">Services</a>
+                                <a class="nav-link livvic-text" href="#services">Services</a>
                             </li> 
                             <li class="nav-link">
-                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                                <a class="nav-link livvic-text" href="#testimonials">Testimonials</a>
                             </li> 
                             <li class="nav-item d-lg-none">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <a class="nav-link livvic-text" href="#contact">Contact</a>
                             </li> 
                             <li class="nav-item d-none d-lg-inline">
-                                <a class="btn btn-secondary" href="#contact">Contact</a>
+                                <a class="btn btn-secondary custom-button" href="#contact">Contact</a>
                             </li>
                     </ul>
                 </div>
@@ -53,8 +53,8 @@
     
 
     <!--hero section using bootstrap 5 classes for responsivity -->
-        <section class="container-fluid">
-            <div class="row g-0 cream-bg">
+        <section class="container-fluid g-0">
+            <div class="row g-0  cream-bg">
                 <div class="p-5 col-sm-12 col-md-6">
                     <h1 class="tagline">Come, Stay, Play!</h1>
                     
@@ -62,21 +62,21 @@
                     
                 </div>
                 <div class="col-sm-12 col-md-6">
-                   <img src="assets/images/hero.png" class="img-fluid" >
+                   <img src="assets/images/hero.png" class="w-100 h-100" >
                 </div>
             </div>
         </section>
 
-     <!--testimonial section using bootstrap 5 cards-->
+     <!--services section using bootstrap 5 cards-->
         
-          <section class="container-fluid">
-                <div class="row my-5">
+          <section class="container-fluid g-4">
+                <div class="row my-5 pt-3">
                     <div class="col-md-4">
                         <div class="card no-border h-100">
                             <img src="assets/images/walking-img.jpg" class="card-img-top" alt="Two dog-walkers walk three on-lead Dalmation's">
                             <div class="card-body services">
                                 <h5 class="card-title sub-titles">Walking</h5>
-                                <p class="card-text livvic">Fun-filled one-hour walk with up to 4 dogs in total. We have a 1:2 walker to dog rule to ensure safety.  Collection & drop off (after a rub-down!) included. 
+                                <p class="card-text livvic-text">Fun-filled one-hour walk with up to 4 dogs in total. We have a 1:2 walker to dog rule to ensure safety.  Collection & drop off (after a rub-down!) included. 
                                 After every walk you will receive photos & updates via our bespoke app!</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                             <img src="assets/images/daycare-img.jpg" class="card-img-top" alt="Dog jumping into the air with a ball in it's mouth.">
                             <div class="card-body services">
                                 <h5 class="card-title sub-titles">Day-Care</h5>
-                                <p class="card-text livvic">Drop-off & collect from our specialised day-care centre.
+                                <p class="card-text livvic-text">Drop-off & collect from our specialised day-care centre.
                                         1-hour walk included. Your pooch can play & socialise, or simply hang out in our dedicated chill-out area!</p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                             <img src="assets/images/boarding-img.jpg" class="card-img-top" alt="Lurcher-type dog lies on a bed looking sleepy.">
                             <div class="card-body services">
                                 <h5 class="card-title sub-titles">Boarding</h5>
-                                <p class="card-text livvic">Going away on holiday?
+                                <p class="card-text livvic-text">Going away on holiday?
                                         Our qualified staff will stay overnight with your woofer & provide constant companionship.
                                         We will send you twice-daily updates via our app to keep you in-the-loop.</p>
                             </div>
@@ -105,7 +105,36 @@
                 </div>
             </section>
 
-        <!--About us-->
+        <!--About us -->
+
+        <section class="container-fluid g-0 d-none d-lg-block">
+            <div class="row">
+                <img src="assets/images/about-collage.png" alt="Collage of dogs and a Devon beach" class="img-fluid">
+
+            </div>
+        </section>
+
+        <section class="container-fluid p-5 cream-bg text-center">
+            <div class="row p-5">
+                <div>
+                    <h1 class="sub-titles">About Us</h1>
+                    <p class="livvic-text">We are a team of floofydoof-fanatics, offering dog-sitting services in and around Exmoor National Park.<br>
+                    You might see us sometimes out and about in our floofy-transport van...<br>
+                    we’re usually on our way to or from a walk with our merry gang of doggos!<br>
+                    When we’re not rambling across the hills of Exmoor or playing fetch on the beach,<br> 
+                    we’re back at our bespoke doggy-day-care centre hanging with the pack.<br></p>
+                
+                    <p class="livvic-text"><br>We love meeting new dogs and their hoomans...so why not pay us a visit?</p>
+                </div>
+                <div>
+                    <a class="m-2 custom-button btn btn-secondary" href="#contact">Reach Out</a>
+
+                </div>
+            </div>
+        </section>
+
+
+       
             
            
        

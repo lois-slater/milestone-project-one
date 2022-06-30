@@ -12,10 +12,13 @@ body {
     margin:0;
     padding:0;
     background-color: #76947A;
+
+    
 }
 
+
 .navbar {
-    background-color: #76947A;
+    background-color: #F1EEE7;
     
 }
 
@@ -27,12 +30,21 @@ body {
     background-color: #76947A;
 }
 
+.livvic-text {
+    color:black !important;
+    font-size: 21px !important;
+    letter-spacing: 2px !important;
+    font-family: livvic !important;
+    
+}
 
 .custom-button {
     font-family: Livvic !important;
     background-color: #76947A;
     border: #76947A;
-    font-size: 20px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    
 }
 
 .tagline {
@@ -43,9 +55,6 @@ body {
     border: 0 !important;
 }
 
-.livvic {
-    font-family: livvic !important;
-}
 
  .services {
     background-color: #F1EEE7 !important;
