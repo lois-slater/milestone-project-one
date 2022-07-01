@@ -17,10 +17,17 @@ body {
 }
 
 
-.navbar {
-    background-color: #F1EEE7;
+.nav-text {
+    color:#F1EEE7 !important;
+    font-size: 1.2vw !important;
+    letter-spacing: 4px !important;
+    font-family: solway !important;
+    font-weight:300;
+    text-transform: uppercase;
     
 }
+
+
 
 .cream-bg {
     background-color: #F1EEE7 !important;
@@ -48,7 +55,10 @@ body {
 }
 
 .tagline {
-    font-size: 50px !important;
+    font-size: 10vw !important;
+    color: #F1EEE7;
+    
+    font-weight: 600;
 }
 
 .no-border {
