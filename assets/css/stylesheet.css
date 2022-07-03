@@ -10,7 +10,7 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     margin:0;
-    padding:0;
+    padding: 175px 0px 0px 0px;
     background-color: #76947A;
 
     
@@ -19,11 +19,11 @@ body {
 
 .nav-text {
     color:#F1EEE7 !important;
-    font-size: 1.2vw !important;
-    letter-spacing: 4px !important;
+    font-size: 2vw !important;
+    letter-spacing: 1px !important;
     font-family: solway !important;
-    font-weight:300;
-    text-transform: uppercase;
+    font-weight:700;
+    
     
 }
 
@@ -37,11 +37,12 @@ body {
     background-color: #76947A;
 }
 
-.livvic-text {
+.solway-text {
     color:black !important;
     font-size: 2.5vh !important;
     letter-spacing: 2px !important;
-    font-family: livvic !important;
+    font-family: solway !important;
+    font-weight: 400;
     line-height: 1.5;
     
 }
