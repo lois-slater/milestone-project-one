@@ -5,10 +5,7 @@
 
 
 body {
-    font-family: 'Solway', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 300;
+    
     margin:0;
     padding: 70px 0px 0px 0px;
     background-color: #76947A;
@@ -18,11 +15,12 @@ body {
 
 
 .nav-text {
-    color: #76947A !important;
+    color: black !important;
     font-size: 21px !important;
     letter-spacing: 1.5px !important;
-    font-family: solway !important;
-    font-weight:700;
+    font-family: livvic !important;
+    font-weight:400;
+   
     
     
 }
@@ -37,28 +35,23 @@ body {
     background-color: #76947A;
 }
 
-.solway-text {
-    color:black !important;
-    font-size: 2.5vh !important;
-    letter-spacing: 2px !important;
-    font-family: solway !important;
-    font-weight: 400;
-    line-height: 1.5;
-    
-}
+
 
 .custom-button {
-    font-family: Livvic !important;
-    background-color: #76947A;
-    border: #76947A;
-    font-size: 19px;
+    font-family: solway !important;
+    background-color: black;
+    font-size: 20px;
     letter-spacing: 2px;
+    color: #F1EEE7;
+    border; black;
+    
     
 }
 
 .tagline {
     font-size: 10vw !important;
     color: black;
+    font-family: solway;
     
     font-weight: 600;
 }
@@ -69,25 +62,70 @@ body {
 
 
  .services {
-    background-color: #F1EEE7 !important;
-    letter-spacing: 1.5px;
+    background-color: #76947A !important;
+    text-align: center;
+    
+    
+    
 
 }
 
-.title {
-    text-align: center !important;
-    font-size: 4vh;
-    font-weight: 700;
-    letter-spacing: 3px;
+.services-title {
+  
+    font-size: 6vh !important;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: solway;
+    
+}
+
+.custom-card-titles {
+    
+    font-weight: 500 !important;
+    color: black;
+    font-size: larger;
+    font-family: livvic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.custom-card-text {
+    
+    font-weight: 300!important;
+    color:white;
+    font-family: livvic;
+    font-size: larger;
+    
+    
+}
+
+.about-title {
+    
+    font-family: solway !important;
+    font-size: 6vh;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
 
 
 }
 
-.sub-titles {
-    text-align: center !important;
-    font-size: 3vh;
-    font-weight: 700;
-    letter-spacing: 3px;
-
-
+.about-text {
+    color:black !important;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: livvic;
+    
 }
+
+
+
+
+
+
+
+
