@@ -10,7 +10,7 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     margin:0;
-    padding: 175px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
     background-color: #76947A;
 
     
@@ -18,9 +18,9 @@ body {
 
 
 .nav-text {
-    color:#F1EEE7 !important;
-    font-size: 2vw !important;
-    letter-spacing: 1px !important;
+    color: #76947A !important;
+    font-size: 21px !important;
+    letter-spacing: 1.5px !important;
     font-family: solway !important;
     font-weight:700;
     
@@ -58,7 +58,7 @@ body {
 
 .tagline {
     font-size: 10vw !important;
-    color: #F1EEE7;
+    color: black;
     
     font-weight: 600;
 }
