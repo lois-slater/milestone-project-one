@@ -81,6 +81,15 @@ body {
     
 }
 
+.subtitle {
+    font-size: 3vh !important;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: livvic;
+}
+
 .custom-card-titles {
     
     font-weight: 500 !important;
@@ -94,7 +103,7 @@ body {
 
 .custom-card-text {
     
-    font-weight: 300!important;
+    font-weight: 400!important;
     color:white;
     font-family: livvic;
     font-size: larger;
