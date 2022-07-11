@@ -33,7 +33,7 @@ body {
 }
 
 .coral-bg {
-    background-color:#DC7260 !important;
+    background-color:#D76865!important;
 }
 .cream-bg {
     background-color: #F1EEE7 !important;
@@ -49,11 +49,11 @@ body {
 
 .custom-button {
     font-family: livvic !important;
-    background-color: #DC7260;
+    background-color: #D76865;
     font-size: 18px;
     font-weight:500;
     color: black;
-    border: #DC7260;
+    border: #D76865;
     
     
 }
