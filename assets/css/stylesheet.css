@@ -10,7 +10,6 @@ body {
     padding: 70px 0px 0px 0px;
     background-color: #76947A;
 
-    
 }
 
 
@@ -21,29 +20,29 @@ body {
     font-family: livvic !important;
     font-weight:400;
    
-    
-    
 }
 
 
 
 .cream-bg {
     background-color: #F1EEE7 !important;
+
 }
 
 .green-bg {
-    background-color: #76947A;
+    background-color: #76947A !important;
 }
 
 
 
 .custom-button {
-    font-family: solway !important;
-    background-color: black;
-    font-size: 20px;
+    font-family: livvic !important;
+    background-color: #DC7260;
+    font-size: 21px;
+    font-weight:400;
     letter-spacing: 2px;
-    color: #F1EEE7;
-    border; black;
+    color: black;
+    border: #DC7260;
     
     
 }
@@ -129,7 +128,10 @@ body {
     font-family: livvic;
 }
 
+.p-margin {
+    margin-top: 30px;
 
+}
 
 
 
