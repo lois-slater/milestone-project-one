@@ -133,5 +133,11 @@ body {
 
 }
 
-
+.form-text {
+    color:black !important;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: livvic;
+    
+}
 
