@@ -15,15 +15,26 @@ body {
 
 .nav-text {
     color: black !important;
-    font-size: 21px !important;
-    letter-spacing: 1.5px !important;
-    font-family: livvic !important;
+    font-size: 21px;
+    font-family: livvic;
     font-weight:400;
    
 }
 
+.nav-button {
+    font-family: livvic !important;
+    background-color: #F1EEE7;
+    font-size: 20px;
+    font-weight:400;
+    color: black;
+    border: #F1EEE7;
+    
+    
+}
 
-
+.coral-bg {
+    background-color:#DC7260 !important;
+}
 .cream-bg {
     background-color: #F1EEE7 !important;
 
@@ -35,12 +46,12 @@ body {
 
 
 
+
 .custom-button {
     font-family: livvic !important;
     background-color: #DC7260;
-    font-size: 21px;
-    font-weight:400;
-    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight:500;
     color: black;
     border: #DC7260;
     
@@ -71,14 +82,12 @@ body {
 
 .title-text {
   
-    font-size: 5vh !important;
+    font-size: 6vh !important;
     font-weight: 500;
     color: black;
     letter-spacing: 1px;
     text-align: center;
     font-family: solway;
-    text-decoration: underline;
-    text-decoration-thickness: -50%;
     
 }
 
@@ -88,9 +97,9 @@ body {
     
     font-weight: 400 !important;
     color: black;
-    font-size: 3vh;
+    font-size: 4vh;
     font-family: solway;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     
     
 }
@@ -118,7 +127,16 @@ body {
     
 }
 
+.pre-button-text {
+    color:black !important;
+    font-size: 3.5vh;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: solway;
+    text-align: center;
+    letter-spacing: 1.5px;
 
+}
 
 .p-margin {
     margin-top: 30px;
@@ -130,11 +148,17 @@ body {
     font-size: 18px;
     font-weight: 300;
     font-family: livvic;
-    text-align: center;
     
 }
 
-.form-border {
-    border-radius: calc(0.5rem - 1px) !important;
+
+.curved-border {
+    border-radius: calc(0.25rem - 1px) !important;
 }
 
+.custom-submit-button {
+    background-color:#76947A !important;
+    border-color:#76947A;
+    color: white;
+    font-family: livvic;
+}

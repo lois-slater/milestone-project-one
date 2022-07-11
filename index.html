@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" />
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/bf632d39ab.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <header>
         <!-- Bootstrap 5 Navbar -->
-        <nav class="navbar p-1 fixed-top navbar-expand-lg navbar-light cream-bg">
+        <nav class="navbar p-1 fixed-top navbar-dark coral-bg">
             <div class="container-fluid">
                 <!-- Logo Image -->
                 <a href="#" class="navbar-brand">
@@ -26,40 +25,37 @@
                     class="img-fluid">
                 </a>
                 
-                <!--Toggler for responsivity-->
+                <!--Toggler-->
                 <div>
                     <button class="navbar-toggler" type="button" 
-                    data-bs-toggle="collapse" data-bs-target="#main-nav"
-                    aria-controls="main-nav" aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        data-bs-toggle="collapse" data-bs-target="#main-nav"
+                        aria-controls="main-nav" aria-expanded="false" 
+                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <!--Navigation Links-->
                 <div class="collapse navbar-collapse justify-content-end" id="main-nav">
                     <ul class="navbar-nav d-flex align-items-center">
                         <li class="nav-link">
+                            <a class="nav-link nav-text" href="#services">Services</a>
+                        </li>
+                        <li class="nav-link">
                             <a class="nav-link nav-text" href="#about">About</a>
                         </li>
                         <li class="nav-link">
-                            <a class="nav-link nav-text" href="#services">Services</a>
+                            <a class="nav-link nav-text" href="#find-us">Find Us</a>
                         </li>
-                        <li class="nav-item nav-text d-md-none">
-                            <a class="nav-link" href="#get-in-touch">Get In Touch</a>
-                        </li>
-                        <!--CTA Button-->
-                        <li class="nav-item nav-text d-none d-md-inline">
-                            <a class="btn custom-button btn-outline-dark nav-text" href="#get-in-touch">Get In Touch</a>
+                        <!--CTA Modal Button-->
+                        <li class="nav-item nav-text pb-2">
+                            <a class="btn nav-button btn-outline-dark nav-text" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
                         </li>
                     </ul>
                 </div>
-            
             </div>
         </nav>
         <!-- End of Bootstrap 5 Navbar-->
         
-        
-        <!--Tagline for sm-->
+        <!--Tagline for sm screens-->
         <section class="container-fluid cream-bg">
             <div class="row g-0 pt-5 d-flex align-items-center justify-items-center d-md-none">
                 <h1 class=" text-center tagline">Come, Stay, Play!</h1>
@@ -69,25 +65,21 @@
         <!--Hero Images-->
         <section class="container-fluid g-0">
         <div class="row g-0">
-            <!--Hero Image 1 for md-->
+            <!--Hero Image 1 for md screens-->
             <div class="d-none d-md-block col-md-6">
                 <img src="assets/images/hero-1.png" class="w-100">
             </div>
-
             <!--Hero Image 2-->
             <div class="col-sm-12 col-md-6">
                 <img src="assets/images/hero-2.png" class="w-100">
             </div>
         </div>
-    
     </header>
     
-    
     <main>
-                   
         <section id="services" class="container-fluid g-0 mt-5 mb-2">
             <div class="row g-0"> <!--Services Title--> 
-                <h1 class="title-text">What we Offer...</h1>
+                <h1 class="title-text">What We Offer...</h1>
             </div>
         </section>
         <section class="container-fluid g-4">
@@ -120,6 +112,13 @@
                     </div>
                 </div>
             </div> <!--end of bootstrap 5 card row-->
+            
+                <div class="text-center">
+                    <p class="pre-button-text m-1">Want to know more?</p>    
+                    <a class="btn nav-button custom-button nav-text" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
+                    </div>
+                </div>
+           
         </section> <!--End of Bootstrap 5 Cards section container-->
                 
         <section id="about" class="container-fluid g-0"> <!--top-border image-->
@@ -143,9 +142,9 @@
                 <p class="custom-text">Floofy Doof Dog Care is a team of three dog-crazy-hoomans offering floof-sitting services in and around Exmoor National Park.</p>
                 <p class="custom-text">You might see us sometimes when we're out-and-about in our Floofy Doof transport-van.  We’re usually on our way to or from a walk with our merry gang of doggos!</p>
                 <p class="custom-text">When we’re not rambling across the hills of Exmoor or playing fetch on the beach, we’re back at our bespoke doggy-day-care-facility, hanging with the pack!</p>
-                <p class="p-margin custom-text">We love meeting new dogs and their hoomans...so why not pay us a visit?</p>
             </div>
             <div class="text-center pb-2">
+                <p class="p-margin pre-button-text">We'd love to meet you...why not pay us a visit?</p>
                 <a class=" custom-button btn btn-secondary" href="#find-us">How to Find Us</a> <!--button-->
             </div>
         </section>
@@ -157,47 +156,20 @@
         </section>
         
             
-        <section id="get-in-touch">
+        <section id="find-us"> <!--find us-->
             <div class="container-lg">
                 
                 <div class=" row justify-content-center">
                     
-                    <h2 class="pt-5 title-text">Get In Touch...</h2>
-                    <p class="pt-2 custom-text">If you would like us to get back to you to discuss how we can help your woofer and you,<br/> please fill out the form and we will be in touch within 48 hours.</p>
+                    <h2 class="pt-5 title-text">Find Us...</h2>
+
+
+                    <p class="pt-2 custom-text">If you would like us to fill out our contact form, we will respond within 48 hours.</p>
                 
                     <div class="col-lg-6 pt-3 form-text form-border cream-bg">
-                        <label for="owner-name" class="form-label">Your Name:</label>
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
-                            <input type="text" id="owner-name" class="form-control" placeholder="Hooman Name">
-                        </div>
-
-                        <label for="dog-name" class="form-label">Your Dog's Name:</label> 
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text"><i class="fa-solid fa-dog"></i></span>
-                            <input type="text" id="dog-name" class="form-control" placeholder="Floofy Doof">
-                        </div>
-
-                        <label for="email" class="form-label">Email:</label>
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                            <input type="email" id="email" class="form-control" placeholder="email@email.com">
-                        </div>
-
-                        <label for="phone" class="form-label">Number:</label>
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
-                            <input type="number" id="phone" class="form-control" placeholder="07700000077">
-                        </div>
-
-                        <label for="message" class="form-label">How can we help?</label>
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text"><i class="fa-solid fa-paw"></i></span>
-                            <textarea id="message" class="form-control" style="height: 140px"></textarea>
-                        </div>
-
+                        
                         <div class="my-4 text-center">
-                            <button type="submit" class="btn btn-secondary">Submit</button>
+                            <a class="btn nav-button custom-button nav-text" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -213,9 +185,10 @@
        
         
             
-        <section>
+        
 
-        </section>
+
+        
 
 
 
@@ -242,6 +215,54 @@
 <footer>
 
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="get-in-touch-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content cream-bg">
+        <div class="modal-header">
+          <h5 class="modal-title pre-button-text" id="get-in-touchLabel">Get In Touch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body form-text cream-bg">
+            <label for="owner-name" class="form-label">Your Name:</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                <input type="text" id="owner-name" class="form-control" placeholder="Hooman Name">
+            </div>
+
+            <label for="dog-name" class="form-label">Your Dog's Name:</label> 
+            <div class="mb-4 input-group">
+                <span class="input-group-text"><i class="fa-solid fa-dog"></i></span>
+                <input type="text" id="dog-name" class="form-control" placeholder="Floofy Doof">
+            </div>
+
+            <label for="email" class="form-label">Email:</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" id="email" class="form-control" placeholder="email@email.com">
+            </div>
+
+            <label for="phone" class="form-label">Number:</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                <input type="number" id="phone" class="form-control" placeholder="07700000077">
+            </div>
+
+            <label for="message" class="form-label">How can we help?</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text"><i class="fa-solid fa-paw"></i></span>
+                <textarea id="message" class="form-control" style="height: 140px" placeholder="Message..."></textarea>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn custom-submit-button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
