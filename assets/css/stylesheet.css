@@ -150,13 +150,13 @@ body {
     border: none;
     line-height: 1.6;
     position: relative !important;
-    border-radius: 1.5px;
+    border-radius: 5px;
   
     
 }
 
 
-/* button animation sourced from 'web dev smplified' */
+/* button animation sourced from 'web dev smplified' and modified */
 .custom-button.background-slide::before {
     content: '' !important;
     position: absolute !important;
@@ -165,9 +165,9 @@ body {
     bottom: 0 !important;
     right: 0 !important;  
     z-index: -1 !important;
-    background-color: #D76865 !important;
-    border-radius: 1.5px;
-    border: #D76865;
+    background-color: #F1EEE7  !important;
+    border-radius: 5px;
+    border: #F1EEE7 2px ;
     
     transition: transform 300ms ease-in-out !important;
     transform: scaleX(0) !important;
@@ -188,7 +188,6 @@ body {
 .custom-button.background-slide:hover,
 .custom-button.background-slide:focus {
   color: black !important;
-  font-weight: 600 !important;
 }
 
 
