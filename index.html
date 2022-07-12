@@ -16,7 +16,7 @@
 <body>
     <header>
         <!-- Bootstrap 5 Navbar -->
-        <nav class="navbar p-1 fixed-top navbar-dark teal-bg">
+        <nav class="navbar navbar-expand-lg p-1 fixed-top navbar-dark green-bg">
             <div class="container-fluid">
                 <!-- Logo Image -->
                 <a href="#" class="navbar-brand">
@@ -27,10 +27,13 @@
                 
                 <!--Toggler-->
                 <div>
-                    <button class="navbar-toggler" type="button" 
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" 
                         data-bs-toggle="collapse" data-bs-target="#main-nav"
                         aria-controls="main-nav" aria-expanded="false" 
-                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                        aria-label="Toggle navigation">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
                     </button>
                 </div>
                 <!--Navigation Links-->
@@ -47,7 +50,7 @@
                         </li>
                         <!--CTA Modal Button-->
                         <li class="nav-item pb-2">
-                            <a class="btn nav-button nav-text" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
+                            <a class="btn custom-button nav-text" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
                         </li>
                     </ul>
                 </div>
@@ -56,7 +59,7 @@
         <!-- End of Bootstrap 5 Navbar-->
         
         <!--Tagline for sm screens-->
-        <section class="container-fluid teal-bg">
+        <section class="container-fluid green-bg">
             <div class="row g-0 pt-5 d-flex align-items-center justify-items-center d-md-none">
                 <h1 class=" text-center tagline">Come, Stay, Play!</h1>
             </div>
@@ -79,7 +82,7 @@
     <main>
         <section id="services" class="container-fluid g-0 mt-5 mb-2">
             <div class="row g-0"> <!--Services Title--> 
-                <h1 class="title-text">What We Offer...</h1>
+                <h1 class="title-text-cream">What We Offer...</h1>
             </div>
         </section>
         <section class="container-fluid g-4">
@@ -98,7 +101,7 @@
                         <img src="assets/images/daycare.png" class="pt-3 card-img-top" alt="Dog looking up excitedly at a person about to throw a frisbee."/>
                         <div class="card-body p-0 custom-card-border services">
                             <h5 class="card-title custom-card-titles">Day-Care</h5>
-                            <p class="mb-3 card-text custom-text">Going out for the day?<br/>Drop your doggo to us for a play-day!</p>
+                            <p class="mb-3 card-text custom-text">Going out for the day?<br/>Drop your doggo with us to play!</p>
                         </div>
                     </div>
                 </div>
@@ -114,8 +117,8 @@
             </div> 
             
             <div class="text-center">
-                <p class="pre-button-text mt-5 pt-2">...want to know more?</p>    
-                <a class="btn nav-button custom-button" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
+                <p class="cream-text mt-5 pt-2">...want to know more?</p>    
+                <a class="btn custom-button" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
             </div>
            
            
@@ -144,8 +147,7 @@
                 <p class="custom-text">When we’re not rambling across the hills of Exmoor or playing fetch on the beach, we’re back at our bespoke doggy-day-care-facility, hanging with the pack!</p>
             </div>
             <div class="text-center pb-2">
-                <p class="p-margin pre-button-text">We'd love to meet you...why not pay us a visit?</p>
-                <a class="custom-button btn" href="#find-us">How to Find Us</a> <!--button-->
+                <p class="p-margin black-text">We'd love to meet you...why not pay us a visit?</p>
             </div>
         </section>
 
@@ -158,7 +160,7 @@
             
         <section id="find-us" class="p-5"> <!--find us-->
             <div class="container">
-                <h2 class="mb-4 title-text">Find Us...</h2>
+                <h2 class="mb-4 title-text-cream">Find Us...</h2>
                 <div class="row g-4">
                     <div class="col-md">
                         <ul>
@@ -176,7 +178,7 @@
                     <p class="pt-2 custom-text">If you would like us to fill out our contact form, we will respond within 48 hours.</p>
                     <div class="col-lg-6 pt-3 form-text form-border cream-bg">
                         <div class="my-4 text-center">
-                            <a class="btn nav-button custom-button" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
+                            <a class="btn custom-button" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
                         </div>
                     </div>
                 </div>
