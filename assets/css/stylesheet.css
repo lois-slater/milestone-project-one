@@ -255,15 +255,20 @@ body {
 
 }
 
-
-.cta-text {
-    font-size: 3vh !important;
-    font-family: 'DM Serif Display', serif !important;
-    text-align: center !important;
-    letter-spacing: 2px;
+/* --FIND US -- */
+.important-text {
+    font-size: 2.75vh !important;
+    font-weight: 400;
     line-height: 1.5;
-    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    
 }
+
+.cream {
+    color:#F1EEE7;
+}
+
 
 /* MODAL*/
 .form-text {
