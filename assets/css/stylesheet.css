@@ -212,18 +212,17 @@ body {
 }
 
 
-/* SERVICES & FIND US */
+
 .title-text-cream {
     font-size: 6vh !important;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     text-align: center;
     font-family: 'DM Serif Display', serif;
-    line-height: 1;
     color: #F1EEE7;
-  
+
 }
 
-/* ABOUT */
+
 .title-text {
     font-size: 6vh !important;
     letter-spacing: 1.5px;
@@ -233,7 +232,7 @@ body {
 
 }
 
-/* ABOUT & SERVICES */
+
 .custom-text {
     font-size: 2.75vh !important;
     font-weight: 300;
@@ -243,7 +242,7 @@ body {
     
 }
 
-/* ABOUT*/
+
 .black-text {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
@@ -253,13 +252,10 @@ body {
 
 }
 
-/* --FIND US -- */
 .important-text {
-    font-size: 2.75vh !important;
+    font-size: 2.5vh !important;
     font-weight: 400;
-    line-height: 1.5;
     font-family: 'Nunito Sans', sans-serif;
-    text-align: center;
     
 }
 
@@ -278,6 +274,21 @@ body {
     
 }    
 
+.hr-cream {
+    color:#F1EEE7 !important;
+    border:0.75px !important;
+    width:60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hr-black {
+    color:black !important;
+    border:0.75px !important;
+    width:60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
 /* ------------------------SPACING & BORDERS------------ */
 
@@ -301,6 +312,10 @@ body {
 
 }
 
+.icon-p {
+    padding-right: 35px;
+    padding-left: 35px;
+}
 
 /* -------------------------BACKGROUND COLORS----------------------- */
 
