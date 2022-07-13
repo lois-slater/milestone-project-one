@@ -19,11 +19,7 @@
         <nav class="navbar navbar-expand-lg p-1 fixed-top navbar-dark green-bg">
             <div class="container-fluid">
                 <!-- Logo Image -->
-                <a href="#" class="navbar-brand">
-                    <img src="assets/images/logo.png" 
-                    alt="Floofy Doof Dog Care Logo" 
-                    class="img-fluid">
-                </a>
+                <a href="#" class="navbar-brand"><img src="assets/images/logo.png" alt="Floofy Doof Dog Care logo" class="img-fluid"></a>
                 
                 <!--Toggler-->
                 <div>
@@ -36,6 +32,7 @@
                         <span class="toggler-icon bottom-bar"></span>
                     </button>
                 </div>
+                
                 <!--Navigation Links-->
                 <div class="collapse navbar-collapse justify-content-end align-items-end" id="main-nav">
                     <ul class="navbar-nav d-flex align-items-center">
@@ -80,11 +77,13 @@
     </header>
     
     <main>
+
         <section id="services" class="container-fluid g-0 mt-5 mb-2">
             <div class="row g-0"> <!--Services Title--> 
                 <h1 class="title-text-cream">What We Offer...</h1>
             </div>
         </section>
+
         <section class="container-fluid g-4">
             <div class="row mb-5 mt-2 p-0"> <!--services details Bootstrap 5 Cards-->
                 <div class="col-md-4">
@@ -120,8 +119,6 @@
                 <p class="cream-text mt-5 pt-2">...want to know more?</p>    
                 <a class="btn custom-button background-slide" data-bs-toggle="modal" data-bs-target="#get-in-touch-modal">Get In Touch</a>
             </div>
-           
-           
         </section> 
                 
         <section id="about" class="container-fluid g-0"> <!--top-border image-->
@@ -157,8 +154,8 @@
             </div>
         </section>
         
-            
-        <section id="find-us" class="p-5"> <!--find us-->
+           
+        <section id="find-us" class="p-5"> <!--Contact and map sourced from traversy media-->
             <div class="container">
                 <h2 class="mb-4 title-text-cream">Find Us...</h2>
                 <div class="row g-4">
@@ -183,7 +180,7 @@
                     </div>
                 </div>
             </div>
-        </section><!--End of Contact Form-->
+        </section>
         
         <section class="container-fluid g-0"> <!--top-border image-->
             <div class="row g-0">
@@ -228,9 +225,9 @@
     <!-- Modal -->
     <div class="modal fade" id="get-in-touch-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-        <div class="modal-content cream-bg pre-button-text">
-            <div class="modal-header">
-                <h5 class="modal-title" id="get-in-touchLabel">Contact Form</h5>
+        <div class="modal-content cream-bg">
+            <div class="modal-header title-text">
+                <h3 class="modal-title" id="get-in-touchLabel">Contact Form</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body form-text">
@@ -264,9 +261,9 @@
                     <textarea id="message" class="form-control" style="height: 140px" placeholder="Message..."></textarea>
                 </div>
             </div>
-            <div class="modal-footer green-bg">
-                <button type="button" class="btn btn-secondary custom-close-button" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn custom-button background-slide">Submit</button>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Submit</button>
             </div>
         </div>
     </div>
