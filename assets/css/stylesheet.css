@@ -1,6 +1,11 @@
-/*--------------------Google Fonts */
+/* -----------------Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@300;400;500;600;&display=swap');
+
+
+
+/* ------------BODY----------- */
+
 body {
     
     margin:0;
@@ -10,8 +15,10 @@ body {
 
 }
 
+/* ---------------------------NAVBAR----------------------- */
 
-/* animated custom hamburger icon sourced from Haydn S. Adams, BFA */
+
+/* animated custom HAMBURGER icon sourced from Haydn S. Adams, BFA */
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -38,7 +45,7 @@ body {
     position: absolute;
     height: 3px;
     width: 100%;
-    background: rgba(215, 104, 101, 1);
+    background: #F1EEE7;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -84,25 +91,19 @@ body {
     transform: rotate(0deg);
 }
 
-/* Color of 3 lines */
-
-.navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient( 263deg, rgba(215, 104, 101, 1) 0%, rgba(241, 238, 231, 1) 100% );
-}
 
 
-
-/* link effects sourced from powell */
+/* ---LINKS --- EFFECTS FOR NAV sourced from powell */
 .link-effect {
-    font-size: 21px !important;
+    font-size: 19px !important;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight:300;
+    font-weight:600;
     color: #F1EEE7 !important;;
     line-height: 1.6;
     text-decoration: none !important;
     position: relative;
+    letter-spacing: 2px;
 
-   
 }
 
 .link-effect::after {
@@ -118,7 +119,6 @@ body {
     transform-origin: right;
     transition: transform 250ms ease-in;
 
-
 }
 
 .link-effect:hover::after {
@@ -127,36 +127,47 @@ body {
 
 }
 
-.coral-bg {
-    background-color:#D76865!important;
-}
 
-.cream-bg {
-    background-color: #F1EEE7 !important;
 
-}
-
-.green-bg {
-    background-color: #628D7B !important;
-}
+/* ----------------------BUTTONS---------------------- */
 
 .custom-button {
     font-family: 'Nunito Sans', sans-serif !important;
-    background-color: black;
+    background-color: #D65B58;
+    font-size: 19px;
+    font-weight:600;
+    padding: 0.5rem, 0.5rem !important;
+    color: #F1EEE7;
+    border: none;
+    line-height: 1.6;
+    position: relative !important;
+    border-radius: 5px;
+    letter-spacing: 2px;
+
+}
+
+
+.custom-close-button {
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1px;
     color: #F1EEE7;
     border: none;
     line-height: 1.6;
-    position: relative !important;
-    border-radius: 5px;
-  
-    
+
 }
 
+.custom-submit-button {
+    background-color:#628D7B !important;
+    border-color:#628D7B;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
 
-/* button animation sourced from 'web dev smplified' and modified */
+/*  BUTTON TO MODAL ANIMATION sourced from 'web dev smplified' and modified */
 .custom-button.background-slide::before {
     content: '' !important;
     position: absolute !important;
@@ -190,23 +201,13 @@ body {
   color: black !important;
 }
 
-
-.custom-close-button {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    font-weight:300;
-    letter-spacing: 1px;
-    color: #F1EEE7;
-    border: none;
-    line-height: 1.6;
-
-}
+/* END OF BUTTONS */
 
 
 
+/* ------------------------------TEXT------------------------ */
 
-
-
+/* HERO */
 .tagline {
     font-size: 10vw !important;
     font-family: 'DM Serif Display', serif;
@@ -215,23 +216,24 @@ body {
     color: #F1EEE7 ;
 }
 
-.no-border {
-    border: 0 !important;
-}
-
-
- .services {
+/* SERVICES*/
+.services {
     background-color: #F1EEE7 !important;
     text-align: center;
     
-    
-    
-    
-
 }
 
+/* SERVICES*/
+.custom-card-titles {
+    font-size: 3.5vh !important;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    
+}
+
+/* SERVICES & FIND US */
 .title-text-cream {
-  
     font-size: 6vh !important;
     letter-spacing: 1.5px;
     text-align: center;
@@ -239,9 +241,9 @@ body {
     line-height: 1;
     color: #F1EEE7;
   
-    
 }
 
+/* ABOUT */
 .title-text {
     font-size: 6vh !important;
     letter-spacing: 1.5px;
@@ -251,30 +253,7 @@ body {
 
 }
 
-
-.custom-card-titles {
-    
-    font-size: 3.5vh !important;
-    font-family: 'DM Serif Display', serif;
-    letter-spacing: 1.5px;
-    line-height: 1;
-    
-    
-}
-
-
-    
-    
-
-
-.custom-card-border {
-    border-bottom-left-radius: calc(0.25rem - 1px) !important;
-    border-bottom-right-radius: calc(0.25rem - 1px);
-
-}
-
-
-
+/* ABOUT & SERVICES */
 .custom-text {
     font-size: 2.75vh !important;
     font-weight: 300;
@@ -284,6 +263,7 @@ body {
     
 }
 
+/* ABOUT*/
 .black-text {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
@@ -293,6 +273,7 @@ body {
 
 }
 
+/* FIND US */
 .cream-text {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
@@ -302,31 +283,47 @@ body {
     color:#F1EEE7;
 }
 
-.p-margin {
-    margin-top: 30px;
-
-}
-
+/* MODAL*/
 .form-text {
     font-size: 18px !important;
     font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5;
     
-}
+}    
 
+/* ------------------------SPACING & BORDERS------------ */
 
 .curved-border {
     border-radius: calc(0.25rem - 1px) !important;
 }
 
-.custom-submit-button {
-    background-color:#628D7B !important;
-    border-color:#628D7B;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    line-height: 1;
+.custom-card-border {
+    border-bottom-left-radius: calc(0.25rem - 1px) !important;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+
+.p-margin {
+    margin-top: 30px;
+
+}
+
+
+/* -------------------------BACKGROUND COLORS----------------------- */
+
+.cream-bg {
+    background-color: #F1EEE7 !important;
+
+}
+
+.green-bg {
+    background-color: #628D7B !important;
 }
 
 
