@@ -96,9 +96,9 @@ body {
 /* ---LINKS --- EFFECTS FOR NAV sourced from powell */
 .link-effect {
     font-size: 19px !important;
+    font-weight: 500;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight:600;
-    color: #F1EEE7 !important;;
+    color: black !important;
     line-height: 1.6;
     text-decoration: none !important;
     position: relative;
@@ -114,6 +114,7 @@ body {
     width: 100%;
     height: 2px;
     background: currentColor;
+    
 
     transform: scaleX(0);
     transform-origin: right;
@@ -133,11 +134,10 @@ body {
 
 .custom-button {
     font-family: 'Nunito Sans', sans-serif !important;
-    background-color: #D65B58;
-    font-size: 19px;
-    font-weight:600;
+    background-color: #F1EEE7;
+    font-size: 17px;
+    font-weight:500;
     padding: 0.5rem, 0.5rem !important;
-    color: #F1EEE7;
     border: none;
     line-height: 1.6;
     position: relative !important;
@@ -147,25 +147,6 @@ body {
 }
 
 
-.custom-close-button {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    font-weight:300;
-    letter-spacing: 1px;
-    color: #F1EEE7;
-    border: none;
-    line-height: 1.6;
-
-}
-
-.custom-submit-button {
-    background-color:#628D7B !important;
-    border-color:#628D7B;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    line-height: 1;
-}
 
 /*  BUTTON TO MODAL ANIMATION sourced from 'web dev smplified' and modified */
 .custom-button.background-slide::before {
@@ -176,9 +157,9 @@ body {
     bottom: 0 !important;
     right: 0 !important;  
     z-index: -1 !important;
-    background-color: #F1EEE7  !important;
-    border-radius: 5px;
-    border: #F1EEE7 2px ;
+    background-color: black !important;
+    border-radius: 5px !important;
+    border: black 2px !important;
     
     transition: transform 300ms ease-in-out !important;
     transform: scaleX(0) !important;
@@ -191,14 +172,14 @@ body {
 }
 
 .custom-button.background-slide {
-  transition: color 300ms ease-in-out !important;
+  transition: color 200ms ease-in-out !important;
   z-index: 1 !important;
 }
 
 
 .custom-button.background-slide:hover,
 .custom-button.background-slide:focus {
-  color: black !important;
+  color: white !important;
 }
 
 /* END OF BUTTONS */
@@ -231,6 +212,7 @@ body {
     line-height: 1;
     
 }
+
 
 /* SERVICES & FIND US */
 .title-text-cream {
@@ -273,14 +255,14 @@ body {
 
 }
 
-/* FIND US */
-.cream-text {
-    font-size: 3.5vh !important;
-    font-family: 'DM Serif Display', serif;
-    text-align: center;
-    letter-spacing: 1.5px;
-    line-height: 1;
-    color:#F1EEE7;
+
+.cta-text {
+    font-size: 3vh !important;
+    font-family: 'DM Serif Display', serif !important;
+    text-align: center !important;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: black;
 }
 
 /* MODAL*/
@@ -327,6 +309,5 @@ body {
 .green-bg {
     background-color: #628D7B !important;
 }
-
 
 
