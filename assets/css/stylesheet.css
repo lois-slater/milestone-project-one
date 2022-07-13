@@ -212,33 +212,20 @@ body {
 }
 
 
-
-.title-text-cream {
+.title-text {
     font-size: 6vh !important;
     letter-spacing: 1px;
     text-align: center;
     font-family: 'DM Serif Display', serif;
-    color: #F1EEE7;
+    
 
 }
 
-
-.title-text {
-    font-size: 6vh !important;
-    letter-spacing: 1.5px;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    line-height: 1;
-
-}
-
-
+/* ABOUT & SERVICES */
 .custom-text {
     font-size: 2.75vh !important;
     font-weight: 300;
-    line-height: 1.5;
     font-family: 'Nunito Sans', sans-serif;
-    text-align: center;
     
 }
 
@@ -247,8 +234,16 @@ body {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
     text-align: center;
-    letter-spacing: 1.5px;
-    line-height: 1;
+    letter-spacing: 0.5px;
+    
+
+}
+.title-text-cream {
+    font-size: 6vh !important;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #F1EEE7;
 
 }
 
