@@ -140,7 +140,7 @@ body {
     line-height: 1.6;
     position: relative !important;
     border-radius: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 }
 
@@ -200,7 +200,7 @@ body {
 .custom-card-titles {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     line-height: 1;
     
 }
@@ -217,7 +217,7 @@ body {
 
 
 .custom-text {
-    font-size: 2.75vh !important;
+    font-size: 2vh !important;
     font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
     
