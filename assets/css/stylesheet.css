@@ -178,7 +178,6 @@ body {
 .title-text {
     font-size: 6vh !important;
     letter-spacing: 1px;
-    text-align: center;
     font-family: 'DM Serif Display', serif;
     
 
@@ -189,16 +188,17 @@ body {
     font-size: 2.5vh !important;
     font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
-    line-height: 150%;
-    text-align: center;
+    line-height: 200%;
+    text-align: start;
     
 }
 
 .contact-text {
-    font-size: 2vh !important;
-    font-weight: 400;
+    font-size: 3vh !important;
+    font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
-    font-style: italic;
+    
+    
     
 }
 
@@ -232,7 +232,8 @@ body {
 .copyright {
     font-family: 'Nunito Sans', sans-serif !important;
     font-size: 1.5vh !important;
-    color:  white !important;
+    color: black !important;
+ 
 }
 
 
@@ -283,7 +284,7 @@ body {
 
 /* SOCIAL MEDIA LINKS - effect learnt from CI Lesson */
 .media-links li a i {
-    font-size: 35px;
+    font-size: 45px;
     color:black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -295,11 +296,17 @@ body {
     color:#F1EEE7;
 }
 
-/* contact section icons */
-.icon-p {
-    padding-right: 15px;
-    padding-left: 15px;
+/* icons */
+.icon {
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+
 }
 
+.sm-icon {
+    font-size: 5vh !important;
+    color:#F1EEE7;
+}
 
 
