@@ -18,7 +18,7 @@ body {
 /* ---------------------------NAVBAR----------------------- */
 
 
-/* animated custom HAMBURGER icon sourced from Haydn S. Adams, BFA */
+/* animated custom HAMBURGER icon sourced from Haydn S. Adams, BFA (see README)*/
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -93,7 +93,7 @@ body {
 
 
 
-/* ---LINKS --- EFFECTS FOR NAV sourced from powell */
+/* ---LINKS --- effects sourced from Kevin Powell (see README) */
 .link-effect {
     font-size: 19px !important;
     font-weight: 500;
@@ -146,7 +146,7 @@ body {
 
 
 
-/*  BUTTON TO MODAL ANIMATION sourced from 'web dev smplified' and modified */
+/*  BUTTON ANIMATION sourced from 'web dev sImplified' see README*/
 .custom-button.background-slide::before {
     content: '' !important;
     position: absolute !important;
@@ -195,12 +195,6 @@ body {
     color: #F1EEE7 ;
 }
 
-/* SERVICES*/
-.services {
-    background-color: #F1EEE7 !important;
-    text-align: center;
-    
-}
 
 /* SERVICES*/
 .custom-card-titles {
@@ -221,7 +215,7 @@ body {
 
 }
 
-/* ABOUT & SERVICES */
+
 .custom-text {
     font-size: 2.75vh !important;
     font-weight: 300;
@@ -229,6 +223,13 @@ body {
     
 }
 
+.contact-text {
+    font-size: 2vh !important;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    
+}
 
 .black-text {
     font-size: 3.5vh !important;
@@ -248,15 +249,12 @@ body {
 }
 
 .important-text {
-    font-size: 2.5vh !important;
-    font-weight: 400;
+    font-size: 1.5vh !important;
+    font-weight: 500;
     font-family: 'Nunito Sans', sans-serif;
     
 }
 
-.cream {
-    color:#F1EEE7;
-}
 
 
 /* MODAL*/
@@ -312,7 +310,7 @@ body {
     padding-left: 35px;
 }
 
-/* -------------------------BACKGROUND COLORS----------------------- */
+/* -------------------------COLORS----------------------- */
 
 .cream-bg {
     background-color: #F1EEE7 !important;
@@ -323,4 +321,6 @@ body {
     background-color: #628D7B !important;
 }
 
-
+.cream {
+    color:#F1EEE7;
+}
