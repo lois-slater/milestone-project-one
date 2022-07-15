@@ -97,7 +97,7 @@ body {
 .link-effect {
 
     font-family: 'Nunito Sans', sans-serif !important;
-    font-size: 3.5vh !important;
+    font-size: 3vh !important;
     font-style: italic !important;
     text-decoration: none !important;
     position: relative;
@@ -250,17 +250,6 @@ body {
 
 }
 
-.important-text {
-    font-size: 2vh !important;
-    font-weight: 500;
-    font-family: 'Nunito Sans', sans-serif;
-    
-}
-
-
-
-
-
 /* MODAL*/
 .form-text {
     font-size: 18px !important;
@@ -270,13 +259,23 @@ body {
     
 }    
 
-.hr-cream {
-    color:#F1EEE7 !important;
-    border:0.75px !important;
-    width:60% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+/* CONTACT SECTION*/
+.important-text {
+    font-size: 2vh !important;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    
 }
+
+.copyright {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 1.5vh !important;
+    color:  white !important;
+}
+
+
+
+
 
 
 /* ------------------------SPACING & BORDERS------------ */
@@ -296,27 +295,18 @@ body {
 }
 
 
-.p-margin {
-    margin-top: 30px;
-
-}
-
-.icon-p {
-    padding-right: 35px;
-    padding-left: 15px;
-}
-
-
-
 /* -------------------------COLORS----------------------- */
 
 .cream-bg {
     background-color: #F1EEE7 !important;
-
 }
 
 .green-bg {
     background-color: #628D7B !important;
+}
+
+.coral-bg {
+    background-color: #D76865!important;
 }
 
 .cream {
@@ -326,3 +316,28 @@ body {
 .black {
     color: black !important;
 }
+
+/*----------ICONS-------------------*/
+
+/* SOCIAL MEDIA LINKS - effect learnt from CI Lesson */
+.media-links li a i {
+    font-size: 35px;
+    color:black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.media-links li a i:hover {
+    color:#F1EEE7;
+}
+
+/* contact section icons */
+.icon-p {
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+
+
