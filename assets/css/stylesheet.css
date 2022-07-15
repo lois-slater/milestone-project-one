@@ -8,10 +8,10 @@
 
 body {
     
-    margin:0;
     padding: 70px 0px 0px 0px;
-    background-color: #628D7B;
+    background-color:#628D7B;
     color: black;
+    text-align: center;
 
 }
 
@@ -133,53 +133,21 @@ body {
 
 .custom-button {
     font-family: 'Nunito Sans', sans-serif !important;
-    background-color: #F1EEE7;
+    background-color:#F1EEE7;
+    border:#D76865 solid 4px;
+    border-radius: 25px;
     font-size: 17px;
-    font-weight:500;
+    font-weight:600;
     padding: 0.5rem, 0.5rem !important;
-    border: none;
     line-height: 1.6;
     position: relative !important;
-    border-radius: 5px;
     letter-spacing: 1px;
 
 }
 
 
 
-/*  BUTTON ANIMATION sourced from 'web dev sImplified' see README*/
-.custom-button.background-slide::before {
-    content: '' !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: 0 !important;
-    right: 0 !important;  
-    z-index: -1 !important;
-    background-color: black !important;
-    border-radius: 5px !important;
-    border: black 2px !important;
-    
-    transition: transform 300ms ease-in-out !important;
-    transform: scaleX(0) !important;
-    transform-origin: left !important;
-}
 
-.custom-button.background-slide:hover::before,
-.btn.btn-background-slide:focus::before {
-  transform: scaleX(1) !important;
-}
-
-.custom-button.background-slide {
-  transition: color 200ms ease-in-out !important;
-  z-index: 1 !important;
-}
-
-
-.custom-button.background-slide:hover,
-.custom-button.background-slide:focus {
-  color: white !important;
-}
 
 /* END OF BUTTONS */
 
@@ -222,6 +190,7 @@ body {
     font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 150%;
+    text-align: center;
     
 }
 
@@ -236,19 +205,12 @@ body {
 .black-text {
     font-size: 3.5vh !important;
     font-family: 'DM Serif Display', serif;
-    text-align: center;
+    text-align: center !important;
     letter-spacing: 0.5px;
     
 
 }
-.title-text-cream {
-    font-size: 6vh !important;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    color: #F1EEE7;
 
-}
 
 /* MODAL*/
 .form-text {
@@ -335,7 +297,7 @@ body {
 
 /* contact section icons */
 .icon-p {
-    padding-right: 35px;
+    padding-right: 15px;
     padding-left: 15px;
 }
 
