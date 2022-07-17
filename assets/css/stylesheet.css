@@ -16,13 +16,7 @@ body {
 }
 
 
-#card-bg {
-    background-image: url(assets/images/services.jpg) fixed center no-repeat !important;
-    background-size: cover !important;
-    background-size: cover;
-    filter: grayscale(20%);
-    
-}
+
 
 /* ---------------------------NAVBAR----------------------- */
 
@@ -237,6 +231,7 @@ body {
 }
 
 
+
 /* MODAL*/
 .form-text {
     font-size: 18px !important;
@@ -282,12 +277,20 @@ body {
     border: 0 !important;
 }
 
+.cta {
+    border-top:#D76865 solid 8px;
+    border-bottom:#D76865 solid 8px;
+}
 
+.coral-top {
+    border-top: #D76865 solid 8px;
+}
 
 /* -------------------------COLORS----------------------- */
 .opaque {
     background-color: rgba(241, 238, 231, 0) !important;
 }
+
 .cream-bg {
     background-color: #F1EEE7 !important;
 }
