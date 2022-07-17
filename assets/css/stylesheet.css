@@ -16,9 +16,17 @@ body {
 }
 
 #services {
-
-    border-top: #D76865 solid 30px;;
+    border-top: #D76865 solid 30px;
 }
+
+#card-bg {
+    background-image: url(assets/images/services.jpg) fixed center no-repeat !important;
+    background-size: cover !important;
+    background-size: cover;
+    filter: grayscale(20%);
+    
+}
+
 /* ---------------------------NAVBAR----------------------- */
 
 
@@ -280,8 +288,8 @@ body {
 
 
 /* -------------------------COLORS----------------------- */
-.cream-opaque {
-    background-color: rgba(241, 238, 231, 0.5) !important;
+.opaque {
+    background-color: rgba(241, 238, 231, 0) !important;
 }
 .cream-bg {
     background-color: #F1EEE7 !important;
