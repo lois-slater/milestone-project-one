@@ -8,8 +8,8 @@
 
 body {
     
-    padding: 70px 0px 0px 0px;
-    background-color:#628D7B;
+    padding: 50px 0px 0px 0px;
+    background-color:#F1EEE7;
     color: black;
     text-align: center;
 
@@ -171,9 +171,10 @@ body {
 
 /* HERO */
 .tagline {
-    font-size: 10vw !important;
+    font-size: 5vw !important;
     font-family: 'DM Serif Display', serif;
     letter-spacing: 1;
+    text-align: center;
 }
 
 
@@ -186,16 +187,9 @@ body {
     
 }
 
-.card-text {
-    font-size: 2.5vh !important;
-    font-weight: 300;
-    font-family: 'Nunito Sans', sans-serif;
-    text-align:center;
-    
-}
 
 .title-text {
-    font-size: 6vh !important;
+    font-size: 5vh !important;
     letter-spacing: 1px;
     font-family: 'DM Serif Display', serif;
     
@@ -212,14 +206,15 @@ body {
     
 }
 
-.contact-text {
-    font-size: 3vh !important;
+.card-text {
+    font-size: 2.5vh !important;
     font-weight: 300;
     font-family: 'Nunito Sans', sans-serif;
-    
-    
+    text-align: center;
+    line-height: 150%;
     
 }
+
 
 .black-text {
     font-size: 2.5vh !important;
@@ -243,7 +238,7 @@ body {
 
 /* CONTACT SECTION*/
 .important-text {
-    font-size: 2vh !important;
+    font-size: 1.5vh !important;
     font-weight: 500;
     font-family: 'Nunito Sans', sans-serif;
     
@@ -273,18 +268,17 @@ body {
 
 }
 
+
+
 .no-border {
     border: 0 !important;
 }
 
 .cta {
-    border-top:#D76865 solid 8px;
-    border-bottom:#D76865 solid 8px;
+    border-top:#EDDDD3 solid 8px;
+    border-bottom:#EDDDD3 solid 8px;
 }
 
-.coral-top {
-    border-top: #D76865 solid 8px;
-}
 
 /* -------------------------COLORS----------------------- */
 .opaque {
@@ -297,6 +291,10 @@ body {
 
 .green-bg {
     background-color: #628D7B !important;
+}
+
+.pink-bg {
+    background-color: #EDDDD3 !important;
 }
 
 .coral-bg {
